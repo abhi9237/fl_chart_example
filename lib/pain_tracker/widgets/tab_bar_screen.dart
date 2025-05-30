@@ -22,12 +22,12 @@ class TabViewScreen extends StatelessWidget {
           const SizedBox(
             height: 40,
           ),
-          // SelectedChartView(
-          //   controller: controller,
-          // ),
-          // const SizedBox(
-          //   height: 60,
-          // ),
+          SelectedChartView(
+            controller: controller,
+          ),
+          const SizedBox(
+            height: 60,
+          ),
         ],
       ),
     );
